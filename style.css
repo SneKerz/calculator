@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  height: 95vh;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  margin-top: -4%;
+}
+
+#result {
+  background-color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+
+  width: 52vh;
+  height: 15vh;
+  align-self: center;
+  margin-top: 4%;
+  margin-right: 8%;
+}
+
+#numbers {
+  align-self: center;
+  width: 40vh;
+  height: 40vh;
+  margin: 0;
+}
+
+#operations {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 30vh;
+  height: 40vh;
+}
+
+.number {
+  display: inline;
+  height: 13vh;
+  width: 30%;
+}
+
+.operation {
+  justify-content: center;
+  height: 25vh;
+  width: 15vh;
+}
+.equal {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 10vh;
+  width: 10vh;
+}
+.clear {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 10vh;
+  width: 10vh;
+}
